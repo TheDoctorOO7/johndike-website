@@ -1,0 +1,129 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+	#sw5-content-container #contact_us .box,#sw5-content-container #contact_us .contactRow {
+		width:90%;
+		margin:0 auto 8px;
+		margin-right:inherit;
+		margin-left:inherit;
+		float:none;
+		height:auto;
+		position:relative;
+		padding:2%;
+	}
+	
+	#sw5-content-container #contact_us .contactRow #map.map-content {
+		border:none;
+	}
+	
+	#sw5-content-container #contact_us .box input[type=text],#sw5-content-container #contact_us .box textarea {
+		width:95%;
+	}
+	
+	#sw5-content-container #contact_us .box .left.column {
+		width:50%;
+	}
+	
+	#sw5-content-container #contact_us #general .right {
+		margin-top:0;
+	}
+	
+	#sw5-content-container #client_accounts form label {
+		display:none;
+	}
+	
+	#sw5-content-container #contact_us .btn.btn-primary{
+		margin-bottom: 4px;
+	}
+	
+	#sw5-content-container #client_accounts .form {
+		width:90%;
+	}
+	
+	#sw5-content-container #client_accounts .form form {
+		width:90%;
+	}
+	
+	#sw5-content-container #client_accounts .form form input {
+		width:95%;
+	}
+	
+	#sw5-content-container #testimonials #services input[type=text],#sw5-content-container #testimonials #services textarea {
+		width:95%;
+	}
+	
+	#sw5-content-container .col1,#sw5-content-container .col2 {
+		display:none;
+	}
+	
+	#sw5-content-container #responsive_service_select {
+		display:block!important;
+	}
+	
+	#sw5-content-container #servicesFormDiv input[type=text] {
+		width:95%;
+	}
+	
+	#sw5-content-container .head h3 {
+		font-size:15px;
+	}
+	
+	#sw5-content-container .rates h4 {
+		font-size:15px;
+	}
+	
+	#sw5-content-container #financial_tools input[type="text"],#sw5-content-container #financial_tools input[type="password"],#sw5-content-container #financial_tools input[type="email"],#sw5-content-container #financial_tools textarea {
+		width:auto;
+	}
+	
+	#sw5-content-container #financial_tools h3 {
+		font-size:98%;
+	}
+	
+	#sw5-content-container #monthly_form_right {
+		display:none;
+	}
+	
+	#sw5-content-container h4.archiveHeading,#sw5-content-container h4.closeArchive {
+		font-size:15px;
+	}
+	
+	#sw5-content-container #referralForm .referral_tel {
+		display:none;
+	}
+	
+	#sw5-content-container table.glossary_form td.alpha,#sw5-content-container table.glossary_form td.term {
+		float:none;
+		display:block;
+		width:100%;
+		clear:both;
+	}
+	
+	#sw5-content-container .widget.link h3 {
+		font-size:16px;
+	}
+}
+
+/* Tax Rates */
+.clearfix:before,.clearfix:after,.row:before,.row:after {
+	content:none;
+}
+/*
+     FILE ARCHIVED ON 11:30:24 Sep 04, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:50:16 Jun 08, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.979
+  exclusion.robots: 0.111
+  exclusion.robots.policy: 0.098
+  esindex: 0.013
+  cdx.remote: 9.763
+  LoadShardBlock: 77.494 (3)
+  PetaboxLoader3.datanode: 47.563 (4)
+  PetaboxLoader3.resolve: 497.682 (2)
+  load_resource: 493.032
+*/

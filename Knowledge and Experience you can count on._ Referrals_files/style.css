@@ -1,0 +1,536 @@
+/* Note [[ ]] Denotes section for easy search */
+/* [[ Test Default Variables ]] */
+/* [[ Skin Variables ]] */
+/* [[ Skin Typography From Design ]] */
+* {
+	font-family:helvetica,arial sans-serif;
+	font-size:100%;
+}
+
+p {
+	color:#555;
+}
+
+h1,h2,h3,h4,h5 {
+	color:#525252;
+}
+
+h3 {
+	font-size:1.8em;
+	font-weight:400;
+}
+
+h4 {
+	font-size:1.4em;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#1d7fc5;
+}
+
+/* [[ ---- Theme Styling ---- ]] */
+body {
+	background:url(/web/20180904104949im_/http://www.johndike.ca/emothemes/themestore/connect/emotheme/img/texture.png);
+}
+
+.primary-color {
+	color:#1d7fc5;
+}
+
+.white-border {
+	border:10px solid #fff;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.bottom-shadow {
+/* mixin */
+	-webkit-box-shadow:0 2px 18px 0 #000;
+	-moz-box-shadow:0 2px 18px 0 #000;
+	box-shadow:0 2px 18px 0 #000;
+}
+
+.bottom-shadow-small {
+	-webkit-box-shadow:0 4px 8px -5px #000;
+	-moz-box-shadow:0 4px 8px -5px #000;
+	box-shadow:0 4px 8px -5px #000;
+}
+
+.top-shadow {
+/* mixin */
+	-webkit-box-shadow:0 -2px 18px 0 #000;
+	-moz-box-shadow:0 -2px 18px 0 #000;
+	box-shadow:0 -2px 18px 0 #000;
+}
+
+.burst {
+/* Mixin or something so that you only have to type one line */
+}
+
+.horizontal-gradient {
+/* Mixin or something so that you only have to type one line */
+	background:#000;
+/* Old browsers */
+	background:#000;
+/* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI5JSIgc3RvcC1jb2xvcj0iIzAwNTQ4YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iI2QxZTFlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY3JSIgc3RvcC1jb2xvcj0iIzAwNTQ4YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-moz-linear-gradient(left,black 0%,#00548b 29%,white 48%,#00548b 67%,black 100%);
+/* FF3.6+ */
+	background:-webkit-gradient(linear,left top,right top,color-stop(0%,black),color-stop(29%,#00548b),color-stop(48%,white),color-stop(67%,#00548b),color-stop(100%,black));
+/* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(left,black 0%,#00548b 29%,white 48%,#00548b 67%,black 100%);
+/* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(left,black 0%,#00548b 29%,white 48%,#00548b 67%,black 100%);
+/* Opera 11.10+ */
+	background:-ms-linear-gradient(left,black 0%,#00548b 29%,white 48%,#00548b 67%,black 100%);
+/* IE10+ */
+	background:linear-gradient(to right,black 0%,#00548b 29%,white 48%,#00548b 67%,black 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#000000',GradientType=1);
+/* IE6-8 */
+}
+
+/* Default Objects */
+.divider-section {
+	display:block;
+	background:url(/web/20180904104949im_/http://www.johndike.ca/emothemes/themestore/connect/emotheme/img/divider.png) no-repeat top center;
+	margin:35px auto;
+	height:10px;
+	width:50%;
+}
+
+/* [[ Default Typography ]] */
+* {
+	font-family:helvetica,arial sans-serif;
+	font-size:100%;
+}
+
+header {
+	position:relative;
+/* [[ Nav ]] */
+}
+
+header .burst-container {
+	position:absolute;
+/*height:80%;*/
+	width:100%;
+	z-index:-1;
+	border-bottom:1px solid #000;
+	overflow:hidden;
+}
+
+header .burst-container #burst-bg {
+	height:500px;
+}
+
+header #burst-container-splash {
+	height:365px;
+}
+
+header #burst-container-default {
+	height:146px;
+}
+
+header #logo h1 {
+	margin-bottom: 0;
+}
+header #logo h1,header #logo h2,header #logo p,header #logo h4,header #logo a {
+	color:#FFF;
+	text-decoration:none;
+	text-align:center;
+}
+
+header #logo h4 {
+	line-height:2em;
+}
+
+header #logo p {
+	font-size:1em;
+	line-height:1.5621428571429em;
+}
+
+header #splash-header #logo {
+	padding:15px 0;
+	text-align:center;
+}
+
+header #default-header #logo {
+	text-align:center;
+	padding:0;
+}
+
+header #nav-full {
+/* mixin or something so that you can just do opacity */
+	background:#000;
+/* Fallback for web browsers that doesn't support RGBa */
+	background:#000;
+/* RGBa with 0.6 opacity */
+	background:rgba(0,0,0,0.4);
+/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+/* For IE 8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000)";
+}
+
+header #nav-full #nav-div {
+	height:50px;
+}
+
+header #nav-full #nav-div #select-nav {
+	display:none;
+	height:31px;
+	margin:8px auto;
+	padding:5px;
+	text-transform:uppercase;
+}
+
+#nav-div #select-nav option {
+	padding: 5px;
+}
+
+#nav-div #select-nav optgroup {
+	margin-top: 3px;
+}
+
+header #nav-full #nav-div #select-nav > a {
+	margin-right:10px;
+	color:#FFF;
+	line-height:2em;
+	font-size:1.2em;
+}
+
+header #nav-full #nav-div nav {
+	height:50px;
+}
+
+header #nav-full #nav-div nav > ul {
+	position:relative;
+	z-index:500;
+	margin:10px 0;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:.78071428571429em;
+}
+
+header #nav-full #nav-div nav > ul > li {
+	position:relative;
+	z-index:500;
+}
+
+header #nav-full #nav-div nav > ul > li > a {
+	color:#fff;
+	position:relative;
+	z-index:500;
+}
+
+header #nav-full #nav-div nav > ul active a,
+header #nav-full #nav-div nav > ul #nav-div nav ul li > a:hover {
+	
+}
+
+header #nav-full #nav-div nav > ul li > a:hover {
+	
+}
+
+header #widgetarea_header section#header-image {
+	overflow:hidden;
+}
+
+/* Taken from sw5Menu 11/6/13 */
+nav ul li a,
+nav ul li a:active {
+	color: #fff;
+}
+nav ul li ul li a, 
+nav ul li ul li a:active, 
+nav ul li ul li a:visited {
+	color: #000;
+}
+nav ul li ul li a:hover {
+	color: #fff;
+}
+nav ul li a,
+nav ul li a:hover,
+nav ul li a:visited,
+nav ul li a:active {
+	padding: 3px 20px;
+	font-size: 14px;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:hover,
+nav > ul > li > a:visited,
+nav > ul > li > a:active  {
+	padding: 5px 20px;
+}
+/* Removed for changes in sw5 Menu 3.jun.14 -geoff */
+/*nav > ul li ul li ul.dropdown-menu {
+	margin-top:-30px;
+}*/
+
+#nav-div nav ul li {
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius:8px;
+}
+
+#nav-div nav ul li a {
+	text-transform: uppercase;
+}
+
+header .header-image-container {
+	position:relative;
+	margin-top:18px;
+	text-align:right;
+	float:right;
+	width:100%;
+}
+
+
+#skin-image{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+header .header-image-container #splash-image-links {
+	position:absolute;
+	top:-23px;
+	right:0;
+	background:#fff;
+	float:left;
+	clear:both;
+	text-transform:uppercase;
+	line-height:1.3em;
+	font-size:.9em;
+	padding:1% 34px;
+	-moz-border-radius-topleft:15px;
+	-webkit-border-top-left-radius:15px;
+	border-top-left-radius:15px;
+	-moz-border-radius-topright:15px;
+	-webkit-border-top-right-radius:15px;
+	border-top-right-radius:15px;
+	-moz-border-radius-bottomright:0;
+	-webkit-border-bottom-right-radius:0;
+	border-bottom-right-radius:0;
+	-moz-border-radius-bottomleft:0;
+	-webkit-border-bottom-left-radius:0;
+	border-bottom-left-radius:0;
+}
+
+header .header-image-container #splash-image-links a {
+	text-decoration:none;
+}
+
+header .header-image-container img {
+	width:100%;
+	background:none;
+	margin-top: -50px;
+}
+
+.header-image-container .header-region-container {
+	width:400px;
+	height:170px;
+	overflow:hidden;
+	float:right;
+}
+
+/* to account for extra -15px of margin given to row in bootstrap3
+ (originally built using bs 2 and now looks image looks weird )*/
+#widgetarea_header #header-image{
+	margin-right: 15px;
+  	margin-left: 15px;
+}
+
+/* Because of height of h1, for this theme only because the header image pushes stuff down */
+#sw5-content-container .emoInnerContainer {
+    margin-top: -40px;
+}
+
+/* [[ Main-Content Section ]] */
+section#main-section {
+	margin:15px auto;
+}
+
+section#main-section > .container {
+	padding:15px 25px;
+}
+
+/* [[ Footer ]] */
+footer {
+	background:url(/web/20180904104949im_/http://www.johndike.ca/emothemes/themestore/connect/emotheme/img/footer-texture.png);
+	padding:45px 0 55px;
+	margin:45px 0 0;
+	position:relative;
+	z-index:500;
+}
+
+footer .container {
+	position:relative;
+}
+
+footer h4 {
+	margin-bottom:5%;
+}
+
+footer #back-to-top {
+	position:absolute;
+	width:7%;
+	bottom:-82px;
+	right:10%;
+	z-index:200;
+	cursor:pointer;
+}
+
+/* [[ Copyright Div ]] */
+#copyright-div {
+	position:relative;
+	border-top:2px solid #000;
+	height:50px;
+	text-align:left;
+}
+
+#copyright-div container {
+	padding:0 10%;
+}
+
+#copyright-div p {
+	padding:18px;
+	margin:0;
+	line-height:14px;
+	font-size:14px;
+	color:#fff;
+}
+
+/* [[ ---- MEDIA QUERIES ---- ]] */
+@media screen and (max-width: 1024px) {
+	
+	#splash-image-links {
+		padding:2% 15px 0;
+	}
+	
+	#little-links-container .little-links > div {
+		margin-top:0;
+	}
+	
+	footer .container {
+		padding:25px 0 0;
+	}
+	
+	
+	#nav-div nav select#select-nav {
+		display:block!important;
+	}
+	footer .widgetContainer {
+		display:block;
+		clear:both !important;
+		width:100% !important;
+	}
+	footer #back-to-top {
+		bottom:-75px;
+	}
+	footer #back-to-top img {
+		width: 100%;
+	}
+}
+
+/* JH 8/2015: accounts for change to bootstrap3-
+  makes image in header act as it did in BS-2  */  
+  @media (max-width: 979px) and (min-width: 768px){
+	  #splash-header .header-image-container{
+	  	width: 66%;
+	  	float:right;
+	  	margin-top: 35px;
+	  }
+ 
+ 	 #splash-header #logo{
+ 		width:32%;
+ 		float:left
+ 	}
+ 
+  }
+
+	/* B3 Fixed */
+	/* Landscape phone to portrait tablet */
+	@media screen and (max-width: 767px) {
+	body {
+		padding:0;
+	}
+	
+	h4 {
+		font-size:1.6em;
+	}
+	
+	header .burst-container {
+		width:100%;
+	}
+	
+	header #nav-full #nav-div #full-nav {
+		display:none;
+	}
+	
+	header #nav-full #nav-div #select-nav {
+		display:block;
+	}
+	
+	header .header-image-container {
+		padding-right:0;
+	}
+	
+	header .header-image-container .splash-image {
+		padding:0 5%;
+	}
+	
+	.splash-style {
+		display:block!important;
+	}
+	
+	.header-image-container {
+		width:100%;
+	}
+	
+	.default-style {
+		display:none!important;
+	}
+	
+	.divider {
+		height:2px;
+	}
+	
+	#nav-div ul {
+		display:none!important;
+	}
+	.logo-widget {
+		width: 100%;
+	}
+	/* Because of height of h1, for this theme only because the header image pushes stuff down */
+	#sw5-content-container .emoInnerContainer {
+	    margin-top: 0px;
+	}
+	/* Quick fix for line when mobile small */
+	#home-bottom-left {
+		border-right: none;
+	}
+}
+
+/*/mediaquery*/
+/*
+     FILE ARCHIVED ON 10:49:49 Sep 04, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:50:10 Jun 08, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.739
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.069
+  esindex: 0.01
+  cdx.remote: 5.609
+  LoadShardBlock: 136.649 (3)
+  PetaboxLoader3.datanode: 57.692 (4)
+  PetaboxLoader3.resolve: 92.412 (2)
+  load_resource: 99.766
+*/
